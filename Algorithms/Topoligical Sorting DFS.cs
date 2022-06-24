@@ -1,6 +1,11 @@
-private static Dictionary<string, List<string>> graph = new Dictionary<string, List<string>>();
+class Solution
+{
+    private static void Solve()
+    {
+        private static Dictionary<string, List<string>> graph = new Dictionary<string, List<string>>();
         private static HashSet<string> visited = new HashSet<string>();
         private static Stack<string> result = new Stack<string>();
+
         static void Main(string[] args)
         {
             ReadGraph();
@@ -49,3 +54,5 @@ private static Dictionary<string, List<string>> graph = new Dictionary<string, L
                 }
             }
         }
+    }
+}

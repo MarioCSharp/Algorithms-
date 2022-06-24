@@ -1,4 +1,8 @@
-private static Dictionary<string, List<string>> graph = new Dictionary<string, List<string>>();
+class Solution
+{
+    private static void Solve()
+    {
+        private static Dictionary<string, List<string>> graph = new Dictionary<string, List<string>>();
         private static Dictionary<string, int> dependencies = new Dictionary<string, int>();
         private static HashSet<string> visited = new HashSet<string>();
         static void Main(string[] args)
@@ -76,3 +80,5 @@ private static Dictionary<string, List<string>> graph = new Dictionary<string, L
 
             Console.WriteLine(string.Join(" ", top));
         }
+    }
+}
